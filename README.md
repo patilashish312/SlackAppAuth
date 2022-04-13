@@ -8,7 +8,7 @@
 - Under `OAuth & Permissions` section we can generate Bot User OAuth Token. This token starts with `xoxb-*`.
 - By this way we have generated 2 tokens which can be used by our utility code. 
 - Set 2 environment variables namely `SLACK_APP_TOKEN` & `SLACK_BOT_TOKEN` probably under environment variables to set section in editor :
-![image](https://user-images.githubusercontent.com/35179165/163177041-8019e93b-db9a-4e6b-86d3-53b813a14b76.png)
+![image](https://user-images.githubusercontent.com/35179165/163179607-01767eb4-c480-4b28-a635-89a84aea918e.png)
 
 - We have created one sample slack App which will return you simple `:wave: Hello`.
 - Start code & go to slack channel. Put command  `/testcommand` & since we are using proper authorization we will correct response back from our code. Here simple `:wava: Hello`
