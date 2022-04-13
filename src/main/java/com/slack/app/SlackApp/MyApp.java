@@ -13,7 +13,7 @@ import lombok.extern.slf4j.Slf4j;
 public class MyApp {
 	public static void main(String[] args) throws IOException, Exception {
 		var app = new App();
-		app.command("/getvm", (req, ctx) -> {
+		app.command("/testcommand", (req, ctx) -> {
 			var logger = ctx.logger;
 			try {
 				var result = ctx.client().chatPostMessage(
